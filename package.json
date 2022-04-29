@@ -13,12 +13,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/F-gen/blog.git"
+    "url": "git+https://github.com/F-gen/docs.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/F-gen/blog/issues"
+    "url": "https://github.com/F-gen/docs/issues"
   },
 
   "devDependencies": {
