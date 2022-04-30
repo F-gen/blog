@@ -2,7 +2,7 @@ module.exports = {
   title: 'STAR',
   description: 'Slow growth and rapid decline',
   theme: 'reco',
-  base:'./',
+  
   themeConfig: {
     subSidebar: 'auto'
   },
@@ -26,18 +26,18 @@ module.exports = {
       sidebar: [
         {
             title: '欢迎学习',
-            path: './',
+            path: '/',
             collapsable: false, // 不折叠
             children: [
-                { title: "Hello", path: "./" }
+                { title: "Hello", path: "/" }
             ]
         },
         {
           title: "书籍",
-          path: './handok/Book',
+          path: '/handok/Book',
           collapsable: false, // 不折叠
           children: [
-            { title: "书籍Mark", path: "./handok/Book" },
+            { title: "书籍Mark", path: "/handok/Book" },
            
           ],
         }
