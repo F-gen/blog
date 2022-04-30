@@ -1,9 +1,8 @@
-# vuepress base 文件
-git clone
-npm install 
-npm run docs:dev
-npm run docs:build
+# vuepress blog
+* git clone  
 
-自动化部署Github pages .github/workflows
+* npm install 
+* npm run docs:dev
+* npm run docs:build
 
-
+#### 浅记一下 [Markdown 文档写法](https://www.runoob.com/markdown/md-advance.html)

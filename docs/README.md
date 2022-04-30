@@ -1,6 +1,2 @@
----
-title: Hello
-author: Eureka
-date: '2022-4-28'
----
-#### 关于文档搭建步骤 及 GitHub自动化部署
+## Hello
+ ![image-2022-4.30](https://friend101.oss-cn-beijing.aliyuncs.com/img/wp4853026.jpg)
