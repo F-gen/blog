@@ -1,11 +1,7 @@
 module.exports = {
   title: 'STAR',
   description: 'Slow growth and rapid decline',
-  theme: 'reco',
-  
-  themeConfig: {
-    subSidebar: 'auto'
-  },
+  // theme: 'reco',
   locales: {
     './': {
       lang: 'zh-CN'
@@ -22,23 +18,53 @@ module.exports = {
               ]
           }
       ],
-      subSidebar: 'auto', 
       sidebar: [
+          '/', //默认首页
         {
-            title: '欢迎学习',
-            path: '/',
-            collapsable: false, // 不折叠
-            children: [
-                { title: "Hello", path: "/" }
-            ]
-        },
-        {
-          title: "书籍",
-          path: '/handok/Book',
+          title: '一.Book',
           collapsable: false, // 不折叠
           children: [
-            { title: "书籍Mark", path: "/handok/Book" },
-           
+           '/handok/Book',
+           '/handok/telegram',
+          ],
+        },
+        {
+          title: "二.Vue3",
+          collapsable: false, 
+          children: [
+            '/vue/Vue3快速上手',
+            '/vue/创建Vue3.0工程',
+            '/vue/常用 Composition API',
+            '/vue/其它 Composition API',
+            '/vue/Composition API 的优势',
+            '/vue/新的组件',
+            '/vue/其他',
+          ],
+        },
+        {
+          title: "三.TypeScript",
+          collapsable: false, 
+          children: [
+           {
+            title: '初识 TypeScript', // 标题
+            children:[
+              '/TypeScript/chapter1/01_初识TS',
+              '/TypeScript/chapter1/02_安装TS',
+              '/TypeScript/chapter1/03_HelloWorld',
+              '/TypeScript/chapter1/04_webpack打包',
+            ]
+           },{
+            title: 'TypeScript 常用语法', // 标题
+            children:[
+              '/TypeScript/chapter2/1_type',
+              '/TypeScript/chapter2/2_interface',
+              '/TypeScript/chapter2/3_class',
+              '/TypeScript/chapter2/4_function',
+              '/TypeScript/chapter2/5_generic',
+              '/TypeScript/chapter2/6_other',
+            ]
+           }
+
           ],
         }
       ]
