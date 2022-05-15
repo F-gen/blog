@@ -8,6 +8,13 @@ module.exports = {
     }
   },
   themeConfig: {
+    // algolia: {
+    //   apiKey: '95cad4fbd34836a479e9ce41286dea91',
+    //   indexName: 'fugenfun',
+    //   // 如果 Algolia 没有为你提供 `appId` ，使用 `BH4D9OD16A` 或者移除该配置项
+    //   appId: '58GWPAXDZ1'
+    // },
+    // logo: '/images/logo.png',
       nav: [
           { text: '首页', link: '/' },
           { 
