@@ -44,7 +44,8 @@ module.exports = {
            '/handok/Book',
            '/handok/telegram',
             '/handok/WebFontRecommend',
-            '/handok/Eslint'
+            '/handok/Eslint',
+            'handok/Icon'
           ],
         },
         {
